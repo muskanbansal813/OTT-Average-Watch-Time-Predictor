@@ -1,11 +1,11 @@
-# app.py
+e# app.py
 
 import streamlit as st
 import joblib
 import numpy as np
 
 # Set up the page
-st.set_page_config(page_title="OTT Watch Time Predictor", layout="centered")
+st.set_page_config(page_title="OTT Average Watch Time Predictor", layout="centered")
 
 # Hardcoded credentials (for example purposes only)
 USERNAME = "muskan"
@@ -13,7 +13,7 @@ PASSWORD = "Muskan@2025"
 
 # Function to display login page
 def login():
-    st.title("🔐 Login to OTT Watch Time Predictor")
+    st.title("🔐 Login to OTT Average Watch Time Predictor")
 
     with st.form("login_form"):
         username = st.text_input("Username")
